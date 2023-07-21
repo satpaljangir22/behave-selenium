@@ -23,4 +23,4 @@ def step_impl(context):
 @then('verify facebook login page title')
 def step_impl(context):
     title = context.driver.title
-    assert title == "Facebook login page"
+    assert title == "Facebook – log in or sign up"
